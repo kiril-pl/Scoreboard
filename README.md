@@ -2,14 +2,6 @@
 
 Coding exercise.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-- [External NuGet Packages Used](#external-nuget-packages)
-- [Implementation Notes](#implementation-notes)
-
 ## Introduction
 
 Implementation of the Live Football World Cup Score Board.
@@ -46,4 +38,4 @@ dotnet test
 Intentionally didn't add validations for the following cases:
 
 - Providing a match score that is greater than N, where N is a physical limit in the domain.
-- Providing a team name of unreasonably high length.
+- Providing a team name of an unreasonably high length.
